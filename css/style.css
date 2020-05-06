@@ -146,7 +146,7 @@ h4
 
 h5
 {
-  font: 20px 'Source Sans Pro', sans-serif;
+  font: 28px 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-weight: 100;
   color: #FFF;
@@ -751,10 +751,11 @@ pre {
 
 .page1 .button-white {display: none;}
 
-
 h2 {font-size: 42px;}
 
 h3 {font-size:32px;}
+
+h5 {font-size: 18px;}
 
 .logo-phone {display: block; width: 50%; margin: auto;}
 
