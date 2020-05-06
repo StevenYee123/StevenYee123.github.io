@@ -1,3 +1,5 @@
+/* Credit to Saransh Sinha for the lovely star pixels background! */
+
 #top-background{
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
