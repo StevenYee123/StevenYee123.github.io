@@ -9,10 +9,9 @@
   <!-- Meta tags & title /-->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>ShowPage - An Easy to Use Free Responsive Landing Page</title>
-  <meta name="description" content="This template is an easy to use app landing page, responsive and pretty easy to customize including some great easing effects, modal window, a sticky header with share buttons & others stuff !" />
-  <meta name="keywords" content="Free, template, easy to use, customise, one page, template, simple, minimal, landing page, app page, supview" />
-  <meta name="author" content="Supview - François Martin">
+  <title>Steven Yee</title>
+  <meta name="description" content="Welcome to Steven Yee's portfolio site, feel free to have a look around and get to know a more about me!" />
+  <meta name="keywords" content="Steven Yee, Software Developer, Full Stack Developer, App Academy, Job Seeker" />
 
   <!-- Favicon /-->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
@@ -24,8 +23,11 @@
   <link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /-->
   <link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /-->
   <link rel="stylesheet" href="css/animate.css"> 			<!-- Animations /-->
-    
-  
+  <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/details.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
   <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
   
 </head>
@@ -53,11 +55,9 @@
 
 	
 					 <!-- Twitter Share Button --> 
-					 <a href="google.com">Google!</a>
-		
-<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	
+					<a href="https://github.com/StevenYee123" id="nav-links" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/steven-yee-284731139" id="nav-links" target="_blank"><i class="fab fa-linkedin"></i></a>
+
 					 
 				 </div> <!-- End Share dIV -->
 
@@ -65,7 +65,7 @@
 			
 				 <div id="logo">
 				 
-				 	<a href="#"><img alt="Logo" src="img/logo.png"></a>
+				 	<a href="#"><img alt="Logo" src="./media/name-logo.png"></a>
 				 	
 				 </div>
 				
@@ -73,9 +73,9 @@
 				
 				 <ul id="nav" >
 				 
-					 <li><a href="http://www.iamsupview.be">The Author</a></li>
+					 <li><a href="https://www.linkedin.com/in/steven-yee-284731139" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 					 					 
-					 <li><a href="http://www.baribal.be/showpage/dl/">Get it</a></li>
+					 <li><a href="https://github.com/StevenYee123" target="_blank"><i class="fab fa-github"></i></a></li>
 					 
 				 </ul>
 				 			 
@@ -90,19 +90,27 @@
 <!-- HEADER / FIRST SECTION ############################################### -->
 
 
-<section class="page1">
+<section class="page1" id="top-background">
 
 		      	<!-- Huge Title centered --> 
 		      
 		        <div class="huge-title centered">  
 		        
-		          <div class="logo-phone centered"><img alt="YOURLOGO" src="img/logo-phone.png"></div>  <!-- This Logo is only displayed on Tablet/iPhone !-->  
-		      
-		          <h1>A Simple & Easy To Use Free App Landing Page</h1>
-		          
-		          <div class="space"></div>
-		          
-		          <a href="#container" class="button-white goto">Discover more</a> 
+
+			  
+					<div id='stars'></div>
+					<div id='stars2'></div>
+					<div id='stars3'></div>
+					<h1>Steven Yee</h1>
+					
+					<div class="space"></div>
+					<a href="./media/Steven_Yee_Resume.pdf" class="button-white" target="_blank"><strong>My Resume</strong></a> 
+					
+					<div class="logo-phone centered">
+						<a href="./media/Steven_Yee_Resume.pdf" target="_blank">
+							<h1 id="button-white">My Resume</h1>
+						</a>
+					</div> <!-- This Logo is only displayed on Tablet/iPhone !-->
 		  	  
 		  	    </div>
 		  	  
@@ -138,15 +146,20 @@
 				
 					<!-- Title --> 
 				
-					<h3>A Elegant Design</h3>
+					<h3>About Me</h3>
 								
 					<!-- Content --> 
 					
-					<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>
+					<p>How goes it? I'm a native New Yorker and a full Stack <strong>Software Engineer</strong> 
+						with a passion for problem solving and helping others! I graduated from New York City College
+						of Technology with a Bachelors in Computer Science. As a developer I not only aim for top quality
+						product and development but strive for solutions that <strong>prevent future problems.</strong>
+						 My specialties include <strong>React, Redux, Javascript, Ruby on Rails, Java, PostgreSQL, HTML, and CSS3.</strong>
+					</p>
 										
 					<div class="space"></div>
 					
-					<a  class="js-open-modal button-blue">blue button with Modal video</a> 
+					
 					
 				
 				</div>
@@ -155,7 +168,7 @@
 			
 				<div class="five columns picture make-it-appear-left" >
 				
-					<img src="img/1.png" alt="EXEMPLE">
+					<img src="./media/headshot.jpeg" alt="headshot.jpeg">
 				
 				</div>
 		
@@ -172,39 +185,66 @@
 
 
 <section class="page3" >
-
 	<div class="row">
-
-				<!-- Image from left --> 
-			
-				<div class="five columns picture make-it-appear-right" >
-				
-					<img src="img/2.png" alt="EXEMPLE">
-				
+		<h3 class="project-portfolio-header">Project Portfolio</h3>
+		<div class="projects-container">
+			<!-- Image from right -->
+			<div class="project-preview-columns">
+				<div class="five columns article picture make-it-appear-right">
+					<img src="./img/conflict.gif" id="project-preview" alt="conflict.gif">
 				</div>
-
-		
-				<div class="six columns article make-it-appear-left">
-				
-					<!-- Title --> 
-				
-					<h3>Pretty easy to customize</h3>
-								
-					<!-- Content --> 
-					
-					<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>
-										
+				<div class="five columns article make-it-appear-right">
+					<h3 id="project-title">Conflict</h3>
+					<p>A full stack project inspired by the popular chat app Discord. Users will be able to create servers, create channels on servers, invite friends, and have separate live group or direct 
+						messaging sessions with one another.
+					</p>
+					<p><strong id="whitify">React, Redux, Javascript, Ruby on Rails, PostgreSQL, HTML5, CSS3, ActionCable Websockets</strong></p>
 					<div class="space"></div>
-					
-					<a class="js-open-modal button-green">Another Button</a> 
-				
+					<a href="http://conflictapp.herokuapp.com/" class="button-green" target="_blank">Live Site</a>
+					<a href="https://github.com/StevenYee123/Conflict/" class="button-blue" target="_blank">GitHub</a>
 				</div>
-				
-		
-			</div> <!-- End row div -->    
+			</div>
+			<br>
+			<!-- Image from left -->
+			<div class="project-preview-columns">
+				<div class="six columns article make-it-appear-left">
+					<h3>Algo-Animator</h3>
+					<p>A pathfinding algorithm visualizer that showcases the different behaviors and 
+						efficiency of pathfinding algorithms such as BFS, DFS, and Dijkstra's Algorithm.</p>
+					<p>
+						<strong id="whitify">Javascript, Canvas.js, HTML5, CSS3</strong>
+					</p>
+					<div class="space"></div>
+					<a href="https://stevenyee123.github.io/Algo-Animator/" class="button-green" target="_blank">Live Site</a>
+					<a href="https://github.com/StevenYee123/Algo-Animator/" class="button-blue" target="_blank">GitHub</a>
+				</div>
+				<div class="six columns article picture make-it-appear-left">
+					<img src="./img/algo-animator.gif" id="project-preview" alt="algo-animator.gif">
+				</div>
+			</div>
+			<br>
+			<!-- Image from right -->
+			<div class="project-preview-columns">
+				<div class="five columns article picture make-it-appear-right">
+					<img src="./img/where-to-feast.png" id="project-preview" alt="where-to-feast.png">
+				</div>
+				<div class="five columns article make-it-appear-right">
+					<h3>Where to Feast</h3>
+					<p>A website that helps you and indecisive friends decide where to eat, 
+						no longer will you be stuck spending 30 minutes deciding on where to go for breakfast, lunch, or dinner!</p>
+					<p><strong id="whitify">React, Redux, Express, MongoDB, Socket.io, Node.js, Javascript, HTML5, CSS3</strong></p>
+					<div class="space"></div>
+					<a href="https://where-to-feast.herokuapp.com/" class="button-green" target="_blank">Live Site</a>
+					<a href="https://github.com/kunzels/WhereToFeast/" class="button-blue" target="_blank">GitHub</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="five columns picture make-it-appear-right"></div>
+	</div> <!-- End row div -->
 </section>
 
-<!-- END TIRTH SECTION ############################################### -->
+<!-- END THIRD SECTION ############################################### -->
 
 
 
@@ -213,94 +253,174 @@
 <div class='modal' id='modal'>
 
 	  <div class='modal-content modal-anim--three'>
-	  
 	
 	  </div>
 	  
 </div>
 
-
-
 <!-- FOURTH SECTION ############################################### -->
-
-
-
 <section class="page4">
 
 	<div class="row">
-		
-				<div class="four columns article make-it-appear-right">
-				
-					<!-- Title --> 
-				
-					<h3>Pretty Simple and Detailed Code.</h3>
-								
-					<!-- Content --> 
-					
-					<p>Here is the simple exemple of the next section, as you can see, everything is pretty well detailed and easy to understand.</p>
-										
-					<div class="space"></div>
-					
-				
-				</div>
-				
-				<!-- Image --> 
-			
-				<div class="seven columns picture make-it-appear-left" >
-				
-<pre>
-		    	<!-- Article centered on the Page --> 
-		
-				<div class="twelve columns centered make-it-appear-top">
-
-					<!-- Title --> 
-				
-					<h4>Finally! Simple and fair pricing.</h4>
-													
-					<!-- Content --> 
-				
-				
-					<div class="cost">
-						<p class="symbol">$</p>
-						<p class="value">0</p>
+				<h3>Skills</h3>
+				<!-- FIRST SKILLS ROW -->
+				<div class="skills-section">
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-react-original colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>React</h5>
+						</div>
 					</div>
-					
-	
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<img src="./img/redux.svg" id="redux-icon" alt="redux">
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Redux</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-javascript-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Javascript</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-git-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Git</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="fab fa-usb" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Websockets</h5>
+						</div>
+					</div>
 				</div>
-</pre>
-				
+
+				<div class="space"></div>
+				<!-- SECOND SKILLS ROW -->
+				<div class="skills-section">
+					<div class="skill">
+						<div class="columns article  make-it-appear-left">
+							<i class="devicon-ruby-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-left">
+							<h5>Ruby</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-left">
+							<i class="devicon-rails-plain-wordmark colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-left">
+							<h5>Ruby on Rails</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-left">
+							<i class="devicon-postgresql-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-left">
+							<h5>PostgreSQL</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article make-it-appear-left">
+							<i class="devicon-html5-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-left">
+							<h5>HTML5</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-left">
+							<i class="devicon-css3-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-left">
+							<h5>CSS3</h5>
+						</div>
+					</div>
 				</div>
-		
-			</div> <!-- End row div -->    
+
+				<div class="skills-section">
+					<div class="skill">
+						<div class="columns article make-it-appear-right">
+							<i class="devicon-java-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Java</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-mongodb-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>MongoDB</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-express-original" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Express</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-jquery-plain-wordmark colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>jQuery</h5>
+						</div>
+					</div>
+					<div class="skill">
+						<div class="columns article  make-it-appear-right">
+							<i class="devicon-nodejs-plain colored" id="skill-icon"></i>
+						</div>
+						<div class="columns article make-it-appear-right">
+							<h5>Node.js</h5>
+						</div>
+					</div>
+				</div>
+				<div class="seven columns picture make-it-appear-left" >
+				</div>
+			</div> 
 
 </section>
-
 
 <!-- END FOURTH SECTION ############################################### -->
 
-
-
 <!-- FIFTH SECTION ############################################### -->
-
-
-<section class="page5">
-
-		
+<section class="page5">		
 		    <div class="row">
-		    
-		    	<!-- Article centered on the Page --> 
 		
 				<div class="twelve columns centered make-it-appear-top">
 
 					<!-- Title --> 
 				
-					<h4>Finally! Simple and fair pricing.</h4>
+					<h4>Contact Me</h4>
 													
 					<!-- Content --> 
+					<a href="https://www.linkedin.com/in/steven-yee-284731139" id="nav-links" target="_blank"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/StevenYee123" id="nav-links" target="_blank"><i class="fab fa-github"></i></a>
+					<a href="mailto: s.yee615@gmail.com" id="nav-links"><i class="fas fa-envelope"></i></a>
 				
-					<h1>€0</h1>
+
 				
-					
+				</div>
+				<p class="centered">&copy; Steven Yee </p>
 	
 				</div>
 				
@@ -309,57 +429,6 @@
 			
 
 </section>
-
-
-<!-- END FIFTH SECTION ############################################### -->
-
-
-<!-- FOOTER SECTION ############################################### -->
-
-
-<section class="footer">
-
-		
-		    <div class="row">
-		    
-		    	<!-- Article centered on the Page --> 
-		
-				<div class="nine columns centered">
-				
-					<!-- Nav Footer --> 
-				
-					<ul> 
-						<li><a href="http://www.iamsupview.be">About Supview</a> </li> 
-						<li> <a href="http://www.baribal.be/showpage/dl/">Get it</a> </li> 
-						<li> <a href="http://dribbble.com/Supview">Dribbble</a> </li> 
-						<li> <a href="http://www.facebook.com/Supview" rel="nofollow">Facebook</a> </li> 
-						<li> <a href="http://www.behance.net/Supview" rel="nofollow">Behance</a> </li> 
-					</ul>
-
-					<!-- Title --> 
-																
-					<p class="copyright">Showpage is a free app landing page made by <a href="http://www.iamsupview.be">Supview</a> and is under  <a href="http://creativecommons.org/licenses/by/4.0/">CC License</a> <br>© Copyright 2014 Supview. All rights reserved.</p>	
-	
-					<!-- Logo --> 
-	
-	
-					<img class="logo" src="img/logo.png" alt="Logo">
-	
-				</div>
-				
-		
-		    </div>
-			
-
-</section>
-
-
-<!-- END FOOTER SECTION ############################################### -->
-
-
-
-
-
 </div> <!-- end of container -->
 
 
@@ -373,16 +442,8 @@
   <script src="js/jquery.scrollto.js" type="text/javascript"></script> 						<!-- ScrollTo -->	
   <script src="js/mediaCheck.js" type="text/javascript"></script> 							<!-- MediaCheck -->	
 
-
-  
-  <!-- Change UA-XXXXX-X to be your site's ID -->
-  <!--<script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>  -->
-
   </body>
   
 </html>
+
+<!--  -->

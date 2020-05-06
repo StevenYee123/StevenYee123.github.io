@@ -196,7 +196,7 @@ html, body { height: 100%; min-height: 100%;  }
 
 .pull_left { float: left; }
 
-img, object, embed { max-width: 100%; height: auto; }
+img, object, embed { height: auto; }
 
 img { -ms-interpolation-mode: bicubic; }
 

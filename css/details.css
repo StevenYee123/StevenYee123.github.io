@@ -1,0 +1,86 @@
+.project-portfolio-header{
+    font-size: 48px;
+    text-align: center;
+}
+
+/* .projects-container{
+    display: flex;
+    flex-direction: column;
+} */
+
+.project-preview-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#project-preview{
+    width: 500px;
+    height: 300px;
+}
+
+.skills-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.skill{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#skill-icon{
+    font-size: 70px;
+}
+
+#redux-icon{
+    width: 67px;
+}
+
+#nav-links{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    -webkit-transition: .3s ease-in-out;
+}
+
+#nav-links:hover{
+    color: gray;
+}
+
+#button-white{
+  border-radius: 20px;
+  color: #333;
+  letter-spacing: 2px;
+  background: #FFF;
+  font-weight: 600;
+  border: 3px solid #FFF;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  line-height: normal;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#button-white:hover{
+    color: #FFF;
+    border: 3px solid #FFF;
+    background: none;
+}
+
+#whitify{
+    color: white;
+}
+
+#project-title{
+    padding-bottom: 0;
+}
